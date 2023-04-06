@@ -24,3 +24,15 @@ country, enumeration of countries: US, CO and TN, never null (= default will be 
 If the table already exists, your script should not fail
 Your script can be executed on any database
 
+### 2-fans.sql
+
+Write a SQL script that ranks country origins of bands, ordered by the number of (non-unique) fans
+
+Requirements:
+
+Import this table dump: metal_bands.sql.zip
+Column names must be: origin and nb_fans
+Your script can be executed on any database
+Context: Calculate/compute something is always power intensive… better to distribute the load!
+
+
